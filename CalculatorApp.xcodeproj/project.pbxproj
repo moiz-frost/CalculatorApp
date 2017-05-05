@@ -13,6 +13,8 @@
 		F4044C611EBC91A900E58087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4044C5F1EBC91A900E58087 /* Main.storyboard */; };
 		F4044C631EBC91A900E58087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4044C621EBC91A900E58087 /* Assets.xcassets */; };
 		F4044C661EBC91A900E58087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4044C641EBC91A900E58087 /* LaunchScreen.storyboard */; };
+		F4044C701EBC91E700E58087 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4044C6E1EBC91E700E58087 /* CalculatorViewController.m */; };
+		F4044C711EBC91E700E58087 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4044C6F1EBC91E700E58087 /* CalculatorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		F4044C621EBC91A900E58087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4044C651EBC91A900E58087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4044C671EBC91A900E58087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4044C6D1EBC91E700E58087 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		F4044C6E1EBC91E700E58087 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		F4044C6F1EBC91E700E58087 /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 			children = (
 				F4044C591EBC91A900E58087 /* AppDelegate.h */,
 				F4044C5A1EBC91A900E58087 /* AppDelegate.m */,
+				F4044C6D1EBC91E700E58087 /* CalculatorViewController.h */,
+				F4044C6E1EBC91E700E58087 /* CalculatorViewController.m */,
+				F4044C6F1EBC91E700E58087 /* CalculatorViewController.xib */,
 				F4044C5C1EBC91A900E58087 /* ViewController.h */,
 				F4044C5D1EBC91A900E58087 /* ViewController.m */,
 				F4044C5F1EBC91A900E58087 /* Main.storyboard */,
@@ -139,6 +147,7 @@
 			files = (
 				F4044C661EBC91A900E58087 /* LaunchScreen.storyboard in Resources */,
 				F4044C631EBC91A900E58087 /* Assets.xcassets in Resources */,
+				F4044C711EBC91E700E58087 /* CalculatorViewController.xib in Resources */,
 				F4044C611EBC91A900E58087 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +161,7 @@
 			files = (
 				F4044C5E1EBC91A900E58087 /* ViewController.m in Sources */,
 				F4044C5B1EBC91A900E58087 /* AppDelegate.m in Sources */,
+				F4044C701EBC91E700E58087 /* CalculatorViewController.m in Sources */,
 				F4044C581EBC91A900E58087 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

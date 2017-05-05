@@ -14,9 +14,26 @@
 
 @implementation AppDelegate
 
+@synthesize window;
+@synthesize navigationController;
+@synthesize calculatorView;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    UIScreen *screen = [UIScreen mainScreen];
+    
+    CGRect viewRect = [screen bounds];
+    
+    window = [[UIWindow alloc] initWithFrame:viewRect];
+    
+    calculatorView = [[CalculatorViewController alloc] initWithNibName:@"CalculatorViewController" bundle:nil];
+    
+    navigationController = [[UINavigationController alloc] initWithRootViewController:calculatorView];
+    
+    window.rootViewController = calculatorView;
+    
+    [window makeKeyAndVisible];
+
     return YES;
 }
 
